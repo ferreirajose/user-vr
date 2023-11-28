@@ -9,15 +9,15 @@ import User from '../../views/User';
 const Content = props => (
     <main className="Content">
         <Routes>
-            <Route exact path="/home" element={<Home />}>
-                
-            </Route>
-            <Route path="/user" element={ <User />}>
+             
+            <Route path="/" element={ <Home />} />
                
-            </Route>
-            <Route path="*" element={<NotFound />}>
+            <Route path="/home" element={<Home />}/>
                 
-            </Route>
+            <Route path="/user" element={ <User />} />
+               
+            <Route path="*" element={<NotFound />}/>
+            
         </Routes>
     </main>
 )

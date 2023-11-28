@@ -1,8 +1,11 @@
 import React from 'react';
+import PageTitle from './../components/layout/PageTitle';
 
 const Home = props => (
     <div className="Home">
-        Home
+        <PageTitle
+            title="Home"
+            subtitle="Pagina Inicial" />
     </div>
 )
 
