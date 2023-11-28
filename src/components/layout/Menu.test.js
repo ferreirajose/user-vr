@@ -16,5 +16,3 @@ test('renders Menu component with links', () => {
   expect(homeLink).toBeInTheDocument();
   expect(userLink).toBeInTheDocument();
 });
-
-// Add more test cases as needed based on the specific behavior of your Menu component
