@@ -6,11 +6,11 @@ const Gender = props => (
     <div className="Gender">
 
         {props.gender === 'male' ? (
-            <span class="material-symbols-outlined male-icon">
+            <span className="material-symbols-outlined male-icon">
                 male
             </span>
         ) : (
-            <span class="material-symbols-outlined female-icon">
+            <span className="material-symbols-outlined female-icon">
                 female
             </span>
         )}
