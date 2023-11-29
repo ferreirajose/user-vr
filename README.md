@@ -16,6 +16,7 @@ Certifique-se de ter instalado na sua maquina, as seguintes depencias listadas a
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Login] - Username: kminchelle | Password: 0lelplR
 
 ## Iniciando
 
