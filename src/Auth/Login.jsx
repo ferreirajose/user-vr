@@ -36,8 +36,8 @@ const Login = () => {
   };
 
   return (
-    <div className="login-container">
-      <h2 className="login-title">Login</h2>
+    <div className="Login-container">
+      <h2 className="Login-title">Login</h2>
       <input
         type="text"
         placeholder="Username"
@@ -46,9 +46,9 @@ const Login = () => {
           setUsername(e.target.value);
           setIsUsernameEmpty(false);
         }}
-        className={`login-input ${isUsernameEmpty ? 'error-border' : ''}`}
+        className={`Login-input ${isUsernameEmpty ? 'Error-border' : ''}`}
       />
-      {isUsernameEmpty && <p className="error-text">Campo obrigatório</p>}
+      {isUsernameEmpty && <p className="Error-text">Campo obrigatório</p>}
       <input
         type="password"
         placeholder="Password"
@@ -57,10 +57,10 @@ const Login = () => {
           setPassword(e.target.value);
           setIsPasswordEmpty(false);
         }}
-        className={`login-input ${isPasswordEmpty ? 'error-border' : ''}`}
+        className={`Login-input ${isPasswordEmpty ? 'Error-border' : ''}`}
       />
-      {isPasswordEmpty && <p className="error-text">Campo obrigatório</p>}
-      <button onClick={handleLogin} className="login-button">
+      {isPasswordEmpty && <p className="Error-text">Campo obrigatório</p>}
+      <button onClick={handleLogin} className="Login-button">
         Login
       </button>
     </div>

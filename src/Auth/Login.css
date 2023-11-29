@@ -1,4 +1,4 @@
-.login-container {
+.Login-container {
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
@@ -7,12 +7,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .login-title {
+  .Login-title {
     text-align: center;
     color: #333;
   }
   
-  .login-input {
+  .Login-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -21,7 +21,7 @@
     border-radius: 4px;
   }
   
-  .login-button {
+  .Login-button {
     width: 100%;
     padding: 10px;
     background-color: #4caf50;
@@ -31,15 +31,15 @@
     cursor: pointer;
   }
   
-  .login-button:hover {
+  .Login-button:hover {
     background-color: #45a049;
   }
   
-  .error-border {
+  .Error-border {
     border: 2px solid red;
   }
   
-  .error-text {
+  .Error-text {
     color: red;
     margin-top: 5px;
     font-size: 12px;
